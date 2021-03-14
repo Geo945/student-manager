@@ -15,8 +15,7 @@ public class Student {
         this.meanGrade = meanGrade;
     }
 
-    @Override
-    primaryStage.setTitle("FIS - Student Manager");
+
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
